@@ -1,0 +1,117 @@
+nav {
+  width: 100%;
+}
+
+hr {
+  clear: both;
+}
+
+nav > ul li {
+  display: inherit;
+  float: inherit;
+  margin-left: 0;
+  margin-right: 10px;
+}
+
+.menu-left {
+  display: inline;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+.brand {
+  display: inline-block;
+  position: relative;
+  left: 25%
+}
+
+.menu-right {
+  display: inline-block;
+  float:right;
+}
+
+.button-primary {
+  font-size: 16px;
+  background: blue;
+  color: #fff;
+  margin-left: 3px;
+}
+
+.trend-item {
+  float: left;
+}
+
+.trend-item img, .img-click {
+  width: 40px;
+  height: 40px;
+}
+
+.link-click {
+  font-size: 14px;
+  display: inline-block;
+  width: 80px;
+}
+
+#feature-wrapper {
+  width: 90%;
+  margin: auto;
+}
+
+header span p, time{
+ display: inline-block;
+ float: left;
+ margin: 0 5px 5px;
+}
+
+article img {
+  width: 100%;
+}
+
+figcaption {
+  width: 60%;
+  margin: 3px 0;
+}
+
+figcaption p {
+  color: grey;
+  font-size: 12px;
+  margin: 0;
+}
+
+#content {
+  float: left;
+  margin-left: 80px;
+  margin-right: 45px;
+  width: 60%;
+}
+
+#comments {
+ margin-top: 50px;
+ float: left;
+ width: 25%;
+}
+
+.comment {
+  margin-bottom: 10px;
+}
+
+.comment p{
+  margin-top: 0px;
+  clear: both;
+}
+
+.comment span p {
+  float: left;
+  margin: 0;
+}
+
+.comment span time {
+  color: grey;
+}
+
+.comment span time {
+ display: inline;
+ float: left;
+}
+
