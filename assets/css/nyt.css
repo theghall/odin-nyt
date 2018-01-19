@@ -58,7 +58,7 @@ nav > ul li {
   margin: auto;
 }
 
-header span p, time{
+.byline, .byline-pub {
  display: inline-block;
  float: left;
  margin: 0 5px 5px;
@@ -96,22 +96,19 @@ figcaption p {
   margin-bottom: 10px;
 }
 
-.comment p{
+.comment .content {
   margin-top: 0px;
   clear: both;
 }
 
-.comment span p {
+.comment .author {
   float: left;
   margin: 0;
 }
 
-.comment span time {
+.comment time {
+  margin-left: 5px;
   color: grey;
+  display: inline;
+  float: left;
 }
-
-.comment span time {
- display: inline;
- float: left;
-}
-
